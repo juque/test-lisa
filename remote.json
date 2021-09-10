@@ -1,0 +1,24 @@
+{
+  "application": "test-lisa",
+  "repository": "git@github.com:juque/test-lisa.git",
+  "keep_releases": 3,
+  "deploy_to": "/home/deploy/apps/test-lisa",
+  "shared_paths": [
+    "log"
+  ],
+  "environment": "production",
+  "branch": "master",
+  "primary_host": "45.77.4.107",
+  "user": "deploy",
+  "port": 12221,
+  "hosts": [
+    "45.77.4.107"
+  ],
+  "tasks": {
+    "deploy:restart": "",
+    "console": ""
+  },
+  "logs": {
+    "app": "log/{{environment}}.log"
+  }
+}
