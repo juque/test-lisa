@@ -3,6 +3,7 @@
   "repository": "git@github.com:juque/test-lisa.git",
   "keep_releases": 3,
   "deploy_to": "/home/deploy/apps/test-lisa",
+  "repo_path": "/repo",
   "shared_paths": [
     "log"
   ],
